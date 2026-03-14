@@ -11,18 +11,19 @@ import './index.scss'
 const projects = [
   {
     id: 1,
-    title: 'Real-time Notification System',
-    description: 'Built a comprehensive real-time notification module using Django and MongoDB with end-to-end encryption for secure delivery of critical alerts.',
-    technologies: ['Django', 'MongoDB', 'WebSocket', 'End-to-End Encryption', 'Python'],
-    category: 'Backend Development',
-    status: 'Completed',
-    year: '2024',
-    company: 'Mak Design Private Limited',
+    title: 'AI-OCR',
+    description: 'Developed a system to evaluate and process OCR results from multiple AI models for Japanese document text extraction.',
+    technologies: ['Python', 'Ollama', 'vLLM', 'AWS', 'Dify', 'Docker'],
+    category: 'AI / Backend Development',
+    status: 'In-Progress',
+    year: '2026',
+    company: 'Skylab',
     features: [
-      'Real-time delivery of notifications',
-      'End-to-end encryption for security',
-      'Scalable MongoDB backend',
-      'WebSocket integration for instant updates'
+     'Built a workflow to compare OCR performance across multiple models',
+    'Evaluated recognition accuracy using metrics such as CER and WER',
+    'Tested multiple preprocessing techniques including noise removal and contrast enhancement',
+    'Analyzed OCR performance differences between printed and handwritten Japanese documents',
+    'Generated structured evaluation reports to support model selection'
     ],
     images: [], // Provision for multiple images
     githubUrl: null, // Private project
@@ -31,18 +32,20 @@ const projects = [
   },
   {
     id: 2,
-    title: 'Performance Analytics Framework',
-    description: 'Created a comprehensive framework for tracking performance analytics including loading times and click event response times for map libraries, connected to a React frontend.',
-    technologies: ['JavaScript', 'React', 'Performance API', 'Data Visualization', 'Analytics'],
-    category: 'Frontend Development',
+    title: 'Wakai',
+    description: 'Developed a backend API system for managing legal cases related to divorce procedures, supporting workflow tracking, document management, user authentication, identity verification, and online payments.',
+    technologies: ['Python', 'FastAPI', 'PostgreSQL', 'Stripe', 'AWS', 'Webhook', 'Liquid eKYC', 'Docker'],
+    category: 'Backend Development',
     status: 'Completed',
-    year: '2024',
-    company: 'Mak Design Private Limited',
+    year: '2025',
+    company: 'Skylab',
     features: [
-      'Real-time performance monitoring',
-      'Map library performance comparison',
-      'React-based dashboard',
-      'Interactive data visualization'
+      'Designed RESTful APIs using FastAPI to manage legal cases and workflow processes',
+      'Integrated Liquid eKYC service for secure user identity verification',
+      'Implemented secure document uploads using AWS S3 presigned URLs',
+      'Integrated Stripe payment APIs and webhooks for online payment processing and status tracking',
+      'Implemented encryption mechanisms to protect sensitive user data',
+      'Optimized PostgreSQL queries and implemented background jobs to improve system performance and automation'
     ],
     images: [],
     githubUrl: null,
@@ -51,18 +54,20 @@ const projects = [
   },
   {
     id: 3,
-    title: 'Heavy-Gas Dispersion Model',
-    description: 'Engineered a sophisticated heavy-gas dispersion model with 92% predictive accuracy, enhancing hazard prediction capabilities for safety teams.',
-    technologies: ['Java', 'Mathematical Modeling', 'Algorithm Design', 'Safety Systems'],
-    category: 'Scientific Computing',
+    title: 'Pet',
+    description: 'Developed a backend API for a pet-focused social networking application using FastAPI. The system supports user management, pet profiles, community interactions, content sharing, and event management, providing a scalable backend for social features and user engagement.',
+    technologies: ['Python', 'FastAPI', 'PostgreSQL', 'Webhook', 'FireBase'],
+    category: 'Backend Development',
     status: 'Completed',
-    year: '2023',
-    company: 'DRDO',
+    year: '2025',
+    company: 'Skylab',
     features: [
-      '92% predictive accuracy',
-      'Advanced mathematical modeling',
-      'Safety team integration',
-      'Real-time hazard prediction'
+      'Implemented user authentication, profile management, and user blocking functionality',
+      'Developed pet profile management for creating and tracking pets within the platform',
+      'Built social features including posts, images, comments, reactions, and tagging',
+      'Implemented community modules with tags and role-based user management',
+      'Developed event management features for pet-related activities',
+      'Integrated notification systems and content reporting for moderation and user engagement'
     ],
     images: [],
     githubUrl: null,
@@ -71,18 +76,19 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Java Swing GUI Application',
-    description: 'Designed and implemented a user-friendly Java Swing GUI validated through usability testing to streamline end-user interactions.',
-    technologies: ['Java', 'Swing', 'GUI Design', 'Usability Testing', 'UX/UI'],
-    category: 'Desktop Application',
+    title: 'Eyes Inspection Tracking API',
+    description: 'Developed a backend API for managing children eye examination records using Flask and MongoDB. The system allows healthcare staff to manage users, track children profiles, and store eye inspection results for monitoring vision health.',
+    technologies: ['Python', 'Flask', 'MongoDB'],
+    category: 'Backend Development',
     status: 'Completed',
-    year: '2023',
-    company: 'DRDO',
+    year: '2025',
+    company: 'Skylab',
     features: [
-      'Intuitive user interface',
-      'Validated through usability testing',
-      'Streamlined user interactions',
-      'Cross-platform compatibility'
+      'Implemented user authentication system including registration and login',
+      'Developed APIs to manage children profiles and related health information',
+      'Built modules to record and manage eye inspection results for children',
+      'Designed MongoDB data models to store medical inspection data efficiently',
+      'Developed RESTful APIs to support data management and tracking for eye health monitoring'
     ],
     images: [],
     githubUrl: null,
@@ -91,18 +97,19 @@ const projects = [
   },
   {
     id: 5,
-    title: '2D Data Visualization Tool',
-    description: 'Developed a Python-based 2D plotting tool backed by Flask API for enhanced data visualization and improved decision-making clarity.',
-    technologies: ['Python', 'Flask', 'Data Visualization', 'API Development', 'Charts'],
-    category: 'Data Visualization',
+    title: 'Ondokanri',
+    description: 'Developed backend APIs for a workforce management application used by supermarket staff to manage attendance, daily tasks, and operational reports. The system includes both a mobile application for employees and an admin platform for task management and store operations.',
+    technologies: ['Python', 'FastAPI', 'PostgreSQL', 'SSO', 'Azure'],
+    category: 'Backend Development',
     status: 'Completed',
-    year: '2023',
-    company: 'DRDO',
+    year: '2024',
+    company: 'Skylab',
     features: [
-      'Interactive 2D plotting',
-      'Flask API backend',
-      'Real-time data processing',
-      'Decision-making insights'
+      'Implemented SSO-based authentication and role-based access control for the admin system',
+      'Developed employee and store management modules for operational administration',
+      'Built task and checklist management APIs to organize daily work assignments',
+      'Implemented attendance tracking features for employees through the mobile application',
+      'Designed APIs to support task monitoring and operational reporting for store managers'
     ],
     images: [],
     githubUrl: null,
@@ -111,18 +118,20 @@ const projects = [
   },
   {
     id: 6,
-    title: 'IPFS Trading Platform Engine',
-    description: 'Redesigned trading platform core engine with IPFS Merkle DAG and pub-sub system, reducing transaction times by 70%.',
-    technologies: ['Node.js', 'Express.js', 'IPFS', 'Merkle DAG', 'Blockchain', 'Pub-Sub'],
-    category: 'Blockchain Development',
+    title: 'Ovumb',
+    description: 'Developed a backend system and mobile application to help women track menstrual cycles, detect LH hormone surges to predict ovulation, monitor pregnancy progress, track breastfeeding and newborn care, and support online sales of healthcare products.',
+    technologies: ['PHP', 'Laravel', 'MySQL', 'Firebase Cloud Messaging', 'AWS S3', 'Heroku'],
+    category: 'Backend Development',
     status: 'Completed',
     year: '2023',
-    company: 'Verified Network',
+    company: 'TMSC',
     features: [
-      '70% reduction in transaction times',
-      'IPFS Merkle DAG implementation',
-      'Pub-sub messaging system',
-      'Enhanced marketplace efficiency'
+      'Developed RESTful APIs using Laravel to support mobile application features',
+      'Implemented JWT-based authentication and user account management',
+      'Built health tracking modules for menstrual cycle monitoring, ovulation prediction, and pregnancy tracking',
+      'Integrated Firebase Cloud Messaging to send push notifications to mobile users',
+      'Implemented e-commerce features including shopping cart, order management, and product management',
+      'Developed an admin system to manage users, consultants, orders, advertising content, and test results'
     ],
     images: [],
     githubUrl: null,
@@ -131,18 +140,20 @@ const projects = [
   },
   {
     id: 7,
-    title: 'Automated CI/CD Pipeline',
-    description: 'Engineered comprehensive CI/CD pipeline using GitHub Actions and AWS CodeDeploy for fully automated deployments.',
-    technologies: ['GitHub Actions', 'AWS CodeDeploy', 'DevOps', 'Automation', 'Cloud'],
-    category: 'DevOps',
+    title: 'E-TMSC',
+    description: 'Developed a comprehensive HR management system to digitize internal company processes including employee management, attendance tracking, leave requests, payroll management, task assignment, training, and internal communication.',
+    technologies: ['PHP', 'Laravel', 'MySQL', 'Firebase Cloud Messaging', 'AWS S3', 'Heroku'],
+    category: 'Backend Development',
     status: 'Completed',
-    year: '2023',
-    company: 'Verified Network',
+    year: '2024',
+    company: 'TMSC',
     features: [
-      'Fully automated deployments',
-      'GitHub Actions integration',
-      'AWS CodeDeploy implementation',
-      'Accelerated release cycles'
+      'Developed RESTful APIs using Laravel to support HR management features',
+      'Implemented attendance tracking, leave request management, and approval workflows',
+      'Built internal communication modules including posts, notifications, and knowledge tests',
+      'Integrated Firebase Cloud Messaging for real-time push notifications',
+      'Implemented AWS S3 for storing user avatars and related files',
+      'Developed admin system modules for employee management, attendance records, payroll import/export, and system notifications'
     ],
     images: [],
     githubUrl: null,
@@ -151,18 +162,20 @@ const projects = [
   },
   {
     id: 8,
-    title: 'Social Media Platform',
-    description: 'Developed a scalable social media platform with WebSocket-based voice/video calling, serving 10,000+ active users.',
-    technologies: ['Node.js', 'Express.js', 'Next.js', 'MongoDB', 'WebSocket', 'WebRTC'],
-    category: 'Full Stack Development',
+    title: 'Insida',
+    description: 'Developed a social real estate platform inspired by TikTok, enabling users to create and interact with various types of content such as blogs, property listings, and short videos. The platform supports multimedia content creation, real-time communication, and social interactions between users.',
+    technologies: ['Python', 'FastAPI', 'Nodejs','Express.js', 'MongoDB', 'AWS', 'Firebase', 'Twilio'],
+    category: 'Backend Development',
     status: 'Completed',
-    year: '2022',
-    company: 'Metarootz',
+    year: '2025',
+    company: 'Freelancer',
     features: [
-      '10,000+ active users',
-      'WebSocket voice/video calling',
-      'Scalable architecture',
-      'Real-time communication'
+      'Designed and developed RESTful APIs using FastAPI and Express.js for social platform features',
+      'Implemented real-time messaging APIs to support in-app chat between users',
+      'Built media upload APIs for images and videos stored on AWS cloud storage',
+      'Developed search APIs to enable discovery of posts, property listings, and users',
+      'Integrated Twilio SMS services for phone verification and user notifications',
+      'Implemented Firebase push notifications to deliver real-time updates to mobile users'
     ],
     images: [],
     githubUrl: null,
@@ -175,6 +188,7 @@ const Projects = () => {
   const projectsArray = 'Projects'.split('')
   const [letterClass, setLetterClass] = useState('text-animate')
   const [filter, setFilter] = useState('All')
+  const [companyFilter, setCompanyFilter] = useState('All')
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -186,10 +200,15 @@ const Projects = () => {
   // Get unique categories for filtering
   const categories = ['All', ...new Set(projects.map(project => project.category))]
 
-  // Filter projects based on selected category
-  const filteredProjects = filter === 'All' 
-    ? projects 
-    : projects.filter(project => project.category === filter)
+  // Get unique companies for filtering
+  const companies = ['All', ...new Set(projects.map(project => project.company))]
+
+  // Filter projects based on selected category and company
+  const filteredProjects = projects.filter(project => {
+    const categoryMatch = filter === 'All' || project.category === filter
+    const companyMatch = companyFilter === 'All' || project.company === companyFilter
+    return categoryMatch && companyMatch
+  })
 
   return (
     <>
@@ -203,13 +222,16 @@ const Projects = () => {
             />
           </h1>
           <p>
-            A showcase of my technical projects spanning various domains including
-            backend development, data visualization, blockchain, and DevOps. Each project
-            represents a solution to real-world challenges.
+            A collection of backend-focused projects demonstrating my experience
+            in building APIs, designing scalable systems, and optimizing data
+            processing workflows. Each project reflects practical solutions to
+            real-world challenges using technologies such as Python, Node.js,
+            relational databases, and cloud services.
           </p>
           
           {/* Category Filter */}
           <div className="filter-container">
+            <h4>Filter by Category:</h4>
             {categories.map(category => (
               <button
                 key={category}
@@ -217,6 +239,20 @@ const Projects = () => {
                 onClick={() => setFilter(category)}
               >
                 {category}
+              </button>
+            ))}
+          </div>
+
+          {/* Company Filter */}
+          <div className="filter-container">
+            <h4>Filter by Company:</h4>
+            {companies.map(company => (
+              <button
+                key={company}
+                className={`filter-btn ${companyFilter === company ? 'active' : ''}`}
+                onClick={() => setCompanyFilter(company)}
+              >
+                {company}
               </button>
             ))}
           </div>

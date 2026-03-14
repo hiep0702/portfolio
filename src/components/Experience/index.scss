@@ -8,6 +8,12 @@
             font-weight: 300;
             max-width: 100%;
         }
+
+        /* Văn bản intro (dưới tiêu đề) - xuống dòng sớm hơn */
+        p.intro {
+            max-width: 520px !important;
+            line-height: 1.6;
+        }
     }
 }
 

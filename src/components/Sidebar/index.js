@@ -1,5 +1,5 @@
 import './index.scss'
-import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import { faFacebook, faGithub } from '@fortawesome/free-brands-svg-icons'
 import {
   faBriefcase,
   faEnvelope,
@@ -19,10 +19,10 @@ const Sidebar = () => {
   return (
     <>
       <div className="nav-bar">
-        <Link className="logo" to="/">
+        {/* <Link className="logo" to="/">
           <img src={LogoS} alt="Logo" />
           <img className="sub-logo" src={LogoSubtitle} alt="sudip" />
-        </Link>
+        </Link> */}
         <nav>
           <NavLink exact="true" activeclassname="active" to="/">
             <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
@@ -55,27 +55,18 @@ const Sidebar = () => {
             <FontAwesomeIcon icon={faScrewdriverWrench} color="#4d4d4e" />
           </NavLink>
 
-          <NavLink
+          {/* <NavLink
             activeclassname="active"
             className="contact-link"
             to="/contact"
           >
             <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e" />
-          </NavLink>
+          </NavLink> */}
         </nav>
         <ul>
           <li>
             <a
-              href="https://www.linkedin.com/in/banerjee-sudip/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <FontAwesomeIcon icon={faLinkedin} color="#b9b9b9" />
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/metal-oopa"
+              href="https://github.com/hiep0702"
               target="_blank"
               rel="noreferrer"
             >
@@ -84,11 +75,11 @@ const Sidebar = () => {
           </li>
           <li>
             <a
-              href="https://www.codechef.com/users/metal_oopa"
+              href="https://www.facebook.com/trantuanhiep07"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={codechefLogo} width="24" alt="Codechef" />
+              <FontAwesomeIcon icon={faFacebook} color="#b9b9b9" />
             </a>
           </li>
         </ul>

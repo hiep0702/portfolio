@@ -31,17 +31,18 @@ const Skills = () => {
             <br />
           </h1>
           <p>
-            I have a strong foundation in both development and operations, with
-            a focus on creating seamless, efficient systems. My experience
-            includes automating deployment processes, designing scalable
-            applications, and working with cloud technologies to deliver
-            reliable solutions.
+            I specialize in backend development, focusing on building scalable APIs
+            and reliable backend systems using technologies such as Python, PHP, and
+            Node.js. I have experience developing RESTful services with frameworks
+            like FastAPI, Flask, Laravel, and Express.js while working with both
+            relational and NoSQL databases including PostgreSQL, MySQL, and MongoDB.
           </p>
           <p>
-            My skill set spans across DevOps, machine learning, full-stack
-            development, and cloud infrastructure. I’m committed to staying
-            updated with the latest advancements and continually refining my
-            expertise to tackle complex challenges effectively.
+            My work involves designing clean API architectures, optimizing database
+            performance, and integrating cloud and third-party services such as AWS,
+            Firebase, and Stripe. I also have experience deploying backend services
+            using Docker and CI/CD pipelines, and continuously improving systems to
+            ensure stability, scalability, and maintainability.
           </p>
         </div>
 

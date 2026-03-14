@@ -12,9 +12,8 @@ import styles from './index.scss'
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = 'udip'.split('')
-  const jobArray = 'Software Engineer'.split('')
-  const interestArray = 'FullStack | DevOps '.split('')
+  const nameArray = ' Hiep'.split('')
+  const jobArray = 'Backend Developer'.split('')
 
   useEffect(() => {
     const timer = setTimeout(() => {
@@ -33,7 +32,6 @@ const Home = () => {
             <br />
             <span className={`${letterClass} _13`}>I</span>
             <span className={`${letterClass} _14`}>'m</span>
-            <img src={LogoTitle} alt="Sudip Banerjee" />
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -46,15 +44,9 @@ const Home = () => {
               idx={22}
             />
             <br />
-            <AnimatedLetters
-              letterClass={letterClass}
-              strArray={interestArray}
-              idx={22}
-            />
           </h1>
           <h2>
-            Streamlining Workflows | Deploying Intelligent Systems | Building
-            Scalable Applications
+            I specialize in building scalable APIs and backend systems using Python, Node.js, and PHP.
           </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME

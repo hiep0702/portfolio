@@ -5,8 +5,8 @@ import {
   faAws,
   faDocker,
   faGitAlt,
-  faGolang,
-  faJsSquare,
+  faNodeJs,
+  faPhp,
   faPython,
 } from '@fortawesome/free-brands-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -39,17 +39,17 @@ const About = () => {
             />
           </h1>
           <p>
-            I’m a DevOps and Full Stack Engineer with over 2 years of
-            experience, specializing in automating workflows, optimizing CI/CD
-            pipelines, and deploying intelligent systems. My expertise spans
-            across DevOps, full-stack, blockchain development, and aritificial
-            intelligence, with a strong foundation in security.
+            I’m a Backend Developer with over 3 years of experience building scalable
+            APIs and backend systems using Python, Node.js, and PHP. I focus on designing
+            clean architectures, developing efficient RESTful services with frameworks
+            like FastAPI and Express, and working with relational databases such as
+            PostgreSQL and MySQL.
           </p>
           <p>
-            I’m passionate about solving real-world problems through innovative
-            technology and continuously learning to stay ahead of industry
-            trends. Whether it's streamlining infrastructure or building
-            scalable applications, I bring a holistic approach to every project.
+            I’m passionate about improving system performance, optimizing database
+            queries, and building maintainable backend solutions. I also have experience
+            integrating cloud services such as AWS and enjoy continuously learning new 
+            technologies to create reliable and scalable applications.
           </p>
         </div>
 
@@ -65,10 +65,10 @@ const About = () => {
               <FontAwesomeIcon icon={faDocker} color="#28A4D9" />
             </div>
             <div className="face4">
-              <FontAwesomeIcon icon={faGolang} color="#5ED4F4" />
+              <FontAwesomeIcon icon={faPhp} color="#777BB4" />
             </div>
             <div className="face5">
-              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+              <FontAwesomeIcon icon={faNodeJs} color="#339933" />
             </div>
             <div className="face6">
               <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />

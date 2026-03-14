@@ -10,51 +10,49 @@ import './index.scss'
 const workExperience = [
   {
     id: 1,
-    company: 'Mak Design Private Limited',
-    companyUrl: 'https://www.makdesign.in/',
-    position: 'Software Development Engineer',
-    duration: 'May 2024 – Present',
-    location: 'Mumbai, Maharashtra (Remote)',
+    company: 'Skylab Technology Co., Ltd',
+    companyUrl: 'https://skylab.vn/',
+    position: 'Backend Development',
+    duration: 'September 2024 – Present',
+    location: 'Hanoi, Vietnam',
     achievements: [
-      'Built a real-time notification module using Django and MongoDB, secured by end-to-end encryption, ensuring timely and confidential delivery of critical alerts to end-users.',
-      'Created a framework for performance analytics loading time, click event response time for maps rendered by different libraries using JavaScript and connected it to a React frontend.'
+      'Participated in designing and building database schemas for backend systems using PostgreSQL and MongoDB.',
+      'Developed and extended RESTful APIs for web systems using Python (FastAPI/Flask).',
+      'Implemented and deployed new backend features, ensuring system scalability and performance.',
+      'Optimized database queries and data processing logic to improve API performance.',
+      'Deployed and maintained services on Linux servers, using Docker for containerization.',
+      'Participated in code reviews, provided technical support, and shared knowledge with team members.'
     ]
   },
   {
     id: 2,
-    company: 'Defence Research and Development Organisation (DRDO)',
-    companyUrl: 'https://www.drdo.gov.in/drdo/',
-    position: 'Software Development Engineer',
-    duration: 'May 2023 – May 2024',
-    location: 'Gwalior, Madhya Pradesh (Hybrid)',
+    company: 'TMSC Vietnam',
+    companyUrl: 'https://tmsc-vn.com/',
+    position: 'Backend Development',
+    duration: 'February 2023 – August 2024',
+    location: 'Hanoi, Vietnam',
     achievements: [
-      'Engineered a heavy-gas dispersion model (Java), with 92% predictive accuracy, enhancing hazard prediction capabilities for safety teams.',
-      'Designed and implemented a Java Swing GUI, validated through improved usability testing, to streamline and simplify end-user interactions.',
-      'Developed a 2D plotting tool in Python backed by a Flask API, enabling data visualization that improved decision-making clarity among project stakeholders.'
+      'Participated in designing database schemas for backend systems using MySQL.',
+      'Developed RESTful APIs for the application management system using PHP (Laravel).',
+      'Built backend systems for data management and mobile application operations.',
+      'Integrated third-party services such as Firebase, AWS, and Heroku for data storage and notification features.',
+      'Developed and enhanced backend features, ensuring system stability.',
+      'Maintained the system, fixed issues, and optimized database query performance.'
     ]
   },
   {
     id: 3,
-    company: 'Verified Network',
-    companyUrl: 'https://www.verified.network/',
-    position: 'DevOps Engineer — Contract',
-    duration: 'February 2023 — May 2023',
-    location: 'Switzerland (Remote)',
+    company: 'Freelancer',
+    // companyUrl: '#',
+    position: 'Backend Development',
+    duration: 'June 2024 — June 2025',
+    location: 'Australia (Remote)',
     achievements: [
-      'Redesigned the trading platform\'s core engine by implementing an order-matching system using IPFS Merkle DAG and IPFS pub-sub on a Node.js/Express.js server, reducing transaction times by 70% and increasing marketplace efficiency.',
-      'Achieved 90% test coverage by architecting comprehensive test suites with Chai and Mocha, ensuring robust code quality and reliability.',
-      'Engineered the CI/CD pipeline (GitHub Actions and AWS CodeDeploy) resulting in fully automated deployments and accelerating release cycles.'
-    ]
-  },
-  {
-    id: 4,
-    company: 'Metarootz',
-    companyUrl: 'https://www.metarootz.io/',
-    position: 'Software Development Engineer — Contract',
-    duration: 'December 2022 — February 2023',
-    location: 'Dubai, UAE (Remote)',
-    achievements: [
-      'Developed a social media platform using Node.js/Express.js, Next.js, and MongoDB, scaled it to 10,000+ active users, and integrated WebSocket-based voice/video calling to boost user engagement and interaction.'
+      'Developed RESTful APIs for web and mobile applications using Node.js (Express.js).',
+      'Built a data search microservice using Python (FastAPI).',
+      'Integrated third-party services such as AWS and Twilio for notifications and external system communication.',
+      'Designed and optimized database schemas and queries.',
+      'Maintained systems, fixed bugs, and improved API performance.'
     ]
   }
 ]
@@ -81,10 +79,12 @@ const Experience = () => {
               idx={15}
             />
           </h1>
-          <p>
-            My professional journey spans across various industries and technologies,
-            from defense systems to trading platforms and social media applications.
-            Each role has contributed to my growth as a versatile software engineer.
+          <p className="intro">
+            My professional journey focuses on building backend systems
+            and scalable APIs for modern web applications. Through hands-on experience with technologies
+            such as Python, Node.js, and relational databases, I have developed strong
+            skills in backend architecture, performance optimization, and building
+            reliable production-ready services.
           </p>
         </div>
 
