@@ -48,9 +48,14 @@ const Home = () => {
           <h2>
             I specialize in building scalable APIs and backend systems using Python, Node.js, and PHP.
           </h2>
-          <Link to="/contact" className="flat-button">
-            CONTACT ME
-          </Link>
+          <a
+            href="https://hiep-portfolio.s3.ap-southeast-1.amazonaws.com/TranTuanHiep_CV.pdf"
+            className="flat-button"
+            target="_blank"
+            rel="noreferrer"
+          >
+            View CV
+          </a>
         </div>
         <Logo />
       </div>
